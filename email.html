@@ -7,12 +7,11 @@
     
   </style>
 </head>
-  <script>
-    var queryString = window.location.search;
-    var urlParams = new URLSearchParams(queryString);
-    var subject = urlParams.get('subject');
-    var body = urlParams.get('body')
-  document.body.innerHTML = "<h1>" + subject + "</h1> <p>" + body + "</p>";
-  </script>
+  <h1> 
+    {{subject}} 
+  </h1> 
+<p> 
+  {{body}} 
+</p>
   </body>
 </html>
